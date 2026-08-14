@@ -1,0 +1,208 @@
+@layer dpicss {
+    details[data-dpicss] {
+
+        /* START SETTINGS */
+        --primary-color:        white;
+        --primary-size:         clamp(12px, 3cqi, 16px);
+        --font-family:          inherit;
+        --text-align:           left;
+        --padding:              calc(0.5 * var(--primary-size));
+        --border-radius:        calc(var(--primary-size) * 0.7);
+        --button-border-radius: 1000px;
+        --shadow-radius:        3em; 
+        --shadow-opacity:       0.5;
+        --shadow-color:         oklch(from var(--primary-color) round(1.21 - L) 0 0);
+        --pause-text:           'Pause';
+        --play-text:            'Play';
+        --transition-duration:  500ms;
+        /* END SETTINGS */
+
+        --contrast-color: color-mix(in srgb, oklch(from var(--primary-color) round(1.21 - L) 0 0) 95%, #888 5%);
+        --shadow: 0em 0em var(--shadow-radius) 0em color-mix(in srgb, transparent calc(100% - 100% * var(--shadow-opacity)), var(--shadow-color) calc(100% * var(--shadow-opacity)));
+        --shadow-alt: 0em 0em calc(2 * var(--shadow-radius)) 1em color-mix(in srgb, transparent calc(100% - 100% * var(--shadow-opacity)), var(--shadow-color) calc(100% * clamp(0, calc(2 * var(--shadow-opacity)), 1)));
+        --foreground-color: var(--contrast-color);
+        --background-color: var(--primary-color);
+        container-type: inherit;
+        position: relative;
+        width: 100%;
+        color: var(--foreground-color);
+        background-color: var(--background-color);
+        padding: var(--padding) var(--padding) clamp(var(--primary-size), var(--padding), 100%) var(--padding);
+        font-size: var(--primary-size);
+        font-family: var(--font-family);
+        font-weight: 200;
+        border-radius: var(--border-radius);
+    }
+    details[data-dpicss]:not(:has(summary > span)) {
+        padding: var(--padding);
+    }
+    details[data-dpicss] *::selection {
+        background-color: var(--foreground-color);
+        color: var(--background-color);
+    }
+    details[data-dpicss*="box_shadow"] {
+        box-shadow: var(--shadow);
+    }
+    details[data-dpicss*="invert"] {
+        --foreground-color: var(--primary-color);
+        --background-color: var(--contrast-color);
+    }
+    details[data-dpicss] img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        font-size: clamp(10px, calc(0.5 * var(--primary-size)), 24px);
+        border-radius: calc(var(--border-radius) - 0.5 * var(--padding));
+    }
+    details[data-dpicss] > picture {
+        display: flex;
+        position: absolute;
+        top: var(--padding);
+        left: var(--padding);
+        z-index: 1;
+        width: calc(100% - 2 * var(--padding));
+        height: auto;
+        background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
+        border-radius: calc(var(--border-radius) - 0.5 * var(--padding));
+    }
+    details[data-dpicss] summary {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        line-height: 1.5em;
+    }
+    details[data-dpicss] summary picture {
+        display: flex;
+        position: relative;
+        transition: opacity var(--transition-duration);
+        background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
+        border-radius: calc(var(--border-radius) + 1 * var(--padding));
+    }
+    details[data-dpicss] summary picture + span {
+        margin-top: 1em;
+    }
+    details[data-dpicss] summary span {
+        position: relative;
+        padding-left: clamp(1em, calc(var(--padding) * -1), 100%);
+        padding-right: clamp(1em, calc(var(--padding) * -1), 100%);
+        text-align: var(--text-align);
+    }
+    /* BUTTON */
+    details[data-dpicss*="play"] summary picture::after,
+    details[data-dpicss*="play"] > picture::after,
+    details[data-dpicss*="pause"] summary picture::after,
+    details[data-dpicss*="pause"] > picture::after {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        height: 3em;
+        padding-left: calc(2 * var(--primary-size));
+        padding-right: calc(2 * var(--primary-size));
+        background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
+        color: var(--foreground-color);
+        border-radius: var(--button-border-radius);
+        opacity: 0.8;
+        outline-style: solid;
+        outline-offset: 2px;
+        outline-width: 1em;
+        outline-color: color-mix(in srgb, var(--background-color) 20%, transparent 80%);
+        transition: all var(--transition-duration);
+    }
+
+    details[data-dpicss*="play"] summary picture::after {
+        content: var(--play-text);
+    }
+    details[data-dpicss*="pause"] > picture::after {
+        content: var(--pause-text);
+    }
+    details[data-dpicss*="button_shadow"] summary > picture::after {
+        box-shadow: var(--shadow);
+    }
+
+    @keyframes loader {
+        0% {
+            transform: translateX(-50%) translateY(-50%) rotate(0deg) ;
+        }
+        100% {
+            transform: translateX(-50%) translateY(-50%) rotate(360deg) ;
+        }
+    }
+    @keyframes clickedPlay {
+        0% {
+            outline-offset: 2px;
+            outline-color: var(--background-color);
+        }
+        100% {
+            outline-offset: 1em;
+            outline-color: transparent;
+        }
+    }
+    /* LOADER */
+    details[data-dpicss] summary picture::before,
+    details[data-dpicss] > picture::before {
+        content: '';
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: clamp(30px, 20cqi, 128px);
+        height: clamp(30px, 20cqi, 128px);
+        border-top: 0.3em solid var(--foreground-color);
+        border-right: 0.3em solid var(--foreground-color);
+        border-bottom: 0.3em solid var(--foreground-color);
+        border-left: 0.3em solid transparent;
+        border-radius: 100%;
+        animation: loader 1s linear 0s infinite;
+    }
+
+    /* Opened state */
+    details[data-dpicss][open] summary picture,
+    details[data-dpicss*="pause"][open] > picture::after {
+        opacity: 0;
+    }
+
+    /* Play button clicked / Summary opened */
+    /* ISSUE: Works only once on Chrome */
+    details[data-dpicss][open] > picture::after {
+        animation-name: clickedPlay;
+        animation-duration: var(--transition-duration);
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    /* Disable hover for touch devices */
+    @media (hover: hover) {
+        details[data-dpicss*="play"] summary:hover picture::after,
+        details[data-dpicss*="pause"] > picture::after {
+            opacity: 1;
+            outline-width: 2px;
+            outline-offset: 2px;
+            outline-color: color-mix(in srgb, var(--background-color) 50%, transparent 50%);
+            background-color: var(--background-color);
+        }
+        details[data-dpicss*="play_hover"] summary picture::after {
+            opacity: 0;
+        }
+        details[data-dpicss*="play_hover"][open] summary picture::after {
+            opacity: 1;
+        }
+        details[data-dpicss*="button_shadow"]:has(summary:hover) summary > picture::after {
+            box-shadow: var(--shadow-alt);
+        }
+        details[data-dpicss][open]:has(summary:hover) > picture::after {
+            opacity: 0.8;
+        }
+    }
+
+    /* User content */
+    details[data-dpicss] > *:not(picture):not(summary) {
+        padding-left: clamp(1em, calc(var(--padding) * -1), 100%);
+        padding-right: clamp(1em, calc(var(--padding) * -1), 100%);
+    }
+}

@@ -1,0 +1,93 @@
+:root {
+    /* START SETTINGS */
+    --bp-unit-width: 8px;
+    --bp-units-per-group: 16;
+    --bp-units-line-width: 1px;
+    --bp-groups-line-width: 1px;
+    --bp-background-color: #EFEFEF;
+    --bp-groups-bounds-color: #D9D9D9;
+    --bp-units-bounds-color: #E7E7E7;
+    /* END SETTINGS */
+    --bp-group: calc(var(--bp-unit-width) * var(--bp-units-per-group));
+    --bp-current-lightness: oklch(from var(--bp-background-color) round(L - 0.21) 0 0);
+    --bp-current-contrast: oklch(from var(--bp-background-color) round(1.21 - L) 0 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: var(--bp-current-lightness);
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+    color: var(--bp-current-contrast);
+    letter-spacing: -0.01em;
+    font-weight: 300;
+
+    background-color: var(--bp-background-color);
+    background-image: 
+        linear-gradient(
+            var(--bp-groups-bounds-color) var(--bp-groups-line-width),
+            transparent var(--bp-groups-line-width)
+        ),
+        linear-gradient(
+            90deg,
+            var(--bp-groups-bounds-color) var(--bp-groups-line-width),
+            transparent var(--bp-groups-line-width)
+        ),
+        linear-gradient(
+            var(--bp-units-bounds-color) var(--bp-units-line-width),
+            transparent var(--bp-units-line-width)
+        ),
+        linear-gradient(
+            90deg,
+            var(--bp-units-bounds-color) var(--bp-units-line-width),
+            transparent var(--bp-units-line-width)
+        );
+    background-size: 
+        calc(var(--bp-units-per-group) * var(--bp-unit-width)) calc(var(--bp-units-per-group) * var(--bp-unit-width)),
+        calc(var(--bp-units-per-group) * var(--bp-unit-width)) calc(var(--bp-units-per-group) * var(--bp-unit-width)),
+        var(--bp-unit-width) var(--bp-unit-width),
+        var(--bp-unit-width) var(--bp-unit-width);
+
+    /* outline-style: solid;
+    outline-width: 10px;
+    outline-offset: -10px;
+    outline-color: var(--bp-current-lightness); */
+}
+h1 {
+    font-size: clamp(2rem, 10cqi, 5rem);
+    font-weight: 800;
+    margin: 0;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 0.125em var(--bp-current-lightness);
+    letter-spacing: -0.05em;
+    line-height: 1em;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-wrap-style: balance;
+}
+header > p {
+    font-size: clamp(1.1rem, 2.4cqi, 2rem);
+    line-height: 1.5em;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 0.1em var(--bp-current-lightness);
+}
+header code {
+    outline: none;
+}
+details[data-dpicss] + details[data-dpicss] {
+    margin-top: 4rem;
+}

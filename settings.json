@@ -5,7 +5,7 @@
     "faviconUrl": "/favicon.png",
     "blogTitle": "Blog",
     "blogDescription": "Here is the description of the blog part",
-    "productionUrl": "https://picss.netlify.app",
+    "productionUrl": "https://dpicss.netlify.app",
     "customLinks": [
         {
             "url": "/feed.xml",
@@ -28,5 +28,5 @@
             "text": "CodePen"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    "editThisPageRootUrl": "https://github.com/olivier3lanc/dpicss/blob/main"
 }
