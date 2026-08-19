@@ -50,6 +50,7 @@ export default function(eleventyConfig) {
     // START FILE COPY
 	eleventyConfig.addPassthroughCopy("sandboxes");
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("dist");
     eleventyConfig.addPassthroughCopy("core/assets");
     eleventyConfig.addPassthroughCopy("favicon.png");
     // END FILE COPY

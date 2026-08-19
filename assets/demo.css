@@ -89,5 +89,13 @@ header code {
     outline: none;
 }
 details[data-dpicss] + details[data-dpicss] {
-    margin-top: 4rem;
+    margin-top: 32px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 64px;
 }

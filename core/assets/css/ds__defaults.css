@@ -555,8 +555,7 @@ main dl dd {
     border-left-style: dashed;
 }
 /* DETAILS */
-main > details summary,
-main > *:not(header) details summary {
+main > details summary {
     font-variation-settings: "wght" 400, "MONO" 0;
     display: flex;
     align-items: center;
@@ -565,8 +564,7 @@ main > *:not(header) details summary {
     letter-spacing: -0.03em;
     cursor: pointer;
 }
-main > details summary::before,
-main > *:not(header) details summary::before {
+main > details summary::before {
     content: '';
     background-color: currentColor;
     mask-image: url('/core/assets/icons/plus-circle.svg');
@@ -579,22 +577,17 @@ main > *:not(header) details summary::before {
     display: inline-flex;
     font-size: var(--ita-fontSizes-6);
 }
-main > details[open] summary::before,
-main > *:not(header) details[open] summary::before {
+main > details[open] summary::before {
     mask-image: url('/core/assets/icons/minus-circle.svg');
 }
 main > details:has(+ details) summary,
-main > details + details summary,
-main > *:not(header) details:has(+ details) summary,
-main > *:not(header) details + details summary {
+main > details + details summary {
     padding: 1em 0;
     border-bottom-width: 1px;
     border-bottom-style: dashed;
 }
 main > details[open]:has(+ details) summary,
-main > details + details[open] summary,
-main > *:not(header) details[open]:has(+ details) summary,
-main > *:not(header) details + details[open] summary {
+main > details + details[open] summary {
     border-bottom: none;
 }
 /* HORIZONTAL RULE */

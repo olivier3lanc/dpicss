@@ -1,22 +1,37 @@
+/* DPICSS v0.1.0 */
 @layer dpicss {
     details[data-dpicss] {
 
         /* START SETTINGS */
+        /* Primary color from which every other color is set */
         --primary-color:        white;
+        /* The primary size defines text size. By default in DPICSS, primary size is used to set font size and paddings.  */
         --primary-size:         clamp(12px, 3cqi, 16px);
+        /* Defines the font family */
         --font-family:          inherit;
+        /* Defines the default text alignment for the summary text */
         --text-align:           left;
+        /* Defines the padding of the box and the images. By default, calculated from primary size */
         --padding:              calc(0.5 * var(--primary-size));
+        /* Defines the border radius of the box and the images. By default, calculated from primary size */
         --border-radius:        calc(var(--primary-size) * 0.7);
+        /* Defines the border radius of the play and pause buttons */
         --button-border-radius: 1000px;
+        /* Defines the box shadow radius */
         --shadow-radius:        3em; 
+        /* Defines the box shadow opacity */
         --shadow-opacity:       0.5;
+        /* Defines the box shadow color. By default, calculated from the primary color */
         --shadow-color:         oklch(from var(--primary-color) round(1.21 - L) 0 0);
-        --pause-text:           'Pause';
+        /* Text to display on thumbnail */
         --play-text:            'Play';
+        /* Text to display when large sized image is running */
+        --pause-text:           'Pause';
+        /* Defines transition duration on properties changes */
         --transition-duration:  500ms;
         /* END SETTINGS */
-
+    }
+    details[data-dpicss] {
         --contrast-color: color-mix(in srgb, oklch(from var(--primary-color) round(1.21 - L) 0 0) 95%, #888 5%);
         --shadow: 0em 0em var(--shadow-radius) 0em color-mix(in srgb, transparent calc(100% - 100% * var(--shadow-opacity)), var(--shadow-color) calc(100% * var(--shadow-opacity)));
         --shadow-alt: 0em 0em calc(2 * var(--shadow-radius)) 1em color-mix(in srgb, transparent calc(100% - 100% * var(--shadow-opacity)), var(--shadow-color) calc(100% * clamp(0, calc(2 * var(--shadow-opacity)), 1)));
@@ -27,14 +42,14 @@
         width: 100%;
         color: var(--foreground-color);
         background-color: var(--background-color);
-        padding: var(--padding) var(--padding) clamp(var(--primary-size), var(--padding), 100%) var(--padding);
+        padding: var(--padding) var(--padding) clamp(var(--primary-size), var(--padding), 100%) var(--padding) !important;
         font-size: var(--primary-size);
         font-family: var(--font-family);
         font-weight: 200;
         border-radius: var(--border-radius);
     }
     details[data-dpicss]:not(:has(summary > span)) {
-        padding: var(--padding);
+        padding: var(--padding) !important;
     }
     details[data-dpicss] *::selection {
         background-color: var(--foreground-color);
@@ -43,16 +58,19 @@
     details[data-dpicss*="box_shadow"] {
         box-shadow: var(--shadow);
     }
-    details[data-dpicss*="invert"] {
-        --foreground-color: var(--primary-color);
-        --background-color: var(--contrast-color);
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+            color: white;
+        }
     }
     details[data-dpicss] img {
         position: relative;
         width: 100%;
         height: auto;
         font-size: clamp(10px, calc(0.5 * var(--primary-size)), 24px);
-        border-radius: calc(var(--border-radius) - 0.5 * var(--padding));
+        border-radius: calc(var(--border-radius) - 0.25 * var(--padding));
     }
     details[data-dpicss] > picture {
         display: flex;
@@ -60,13 +78,14 @@
         top: var(--padding);
         left: var(--padding);
         z-index: 1;
+        overflow: hidden;
         width: calc(100% - 2 * var(--padding));
         height: auto;
         background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
-        border-radius: calc(var(--border-radius) - 0.5 * var(--padding));
+        border-radius: calc(var(--border-radius) - 0.25 * var(--padding));
     }
     details[data-dpicss] summary {
-        display: flex;
+        display: flex !important; /* important because of CSS resets */
         flex-direction: column;
         cursor: pointer;
         position: relative;
@@ -76,9 +95,10 @@
     details[data-dpicss] summary picture {
         display: flex;
         position: relative;
+        overflow: hidden;
         transition: opacity var(--transition-duration);
         background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
-        border-radius: calc(var(--border-radius) + 1 * var(--padding));
+        border-radius: calc(var(--border-radius) - 0.25 * var(--padding));
     }
     details[data-dpicss] summary picture + span {
         margin-top: 1em;
@@ -105,6 +125,8 @@
         padding-right: calc(2 * var(--primary-size));
         background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
         color: var(--foreground-color);
+        text-align: center;
+        line-height: 1em;
         border-radius: var(--button-border-radius);
         opacity: 0.8;
         outline-style: solid;
@@ -204,5 +226,32 @@
     details[data-dpicss] > *:not(picture):not(summary) {
         padding-left: clamp(1em, calc(var(--padding) * -1), 100%);
         padding-right: clamp(1em, calc(var(--padding) * -1), 100%);
+    }
+}
+
+/* Color scheme preference light */
+@media (prefers-color-scheme: light) {
+    @layer dpicss {
+        details[data-dpicss] {
+            --foreground-color: var(--contrast-color);
+            --background-color: var(--primary-color);
+        }
+        details[data-dpicss*="invert"] {
+            --foreground-color: var(--primary-color);
+            --background-color: var(--contrast-color);
+        }
+    }
+}
+/* Color scheme preference dark */
+@media (prefers-color-scheme: dark) {
+    @layer dpicss {
+        details[data-dpicss] {
+            --foreground-color: var(--primary-color);
+            --background-color: var(--contrast-color);
+        }
+        details[data-dpicss*="invert"] {
+            --foreground-color: var(--contrast-color);
+            --background-color: var(--primary-color);
+        }
     }
 }

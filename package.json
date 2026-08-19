@@ -1,20 +1,30 @@
 {
-  "name": "eleventy-libdoc",
-  "version": "0.14.9",
-  "description": "An Eleventy starter project to craft slick and responsive documentation",
-  "main": "index.js",
+  "name": "dpicss",
+  "version": "0.1.0",
+  "description": "Details Player for Image with CSS. A tiny CSS library to display animated or higher definition images on click.",
+  "style": "dist/dpicss.css",
+  "main": "dist/dpicss.css",
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["css", "css-library", "images"],
+  "author": "Olivier 3lanc",
+  "license": "MIT",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "sharp": "^0.35.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olivier3lanc/dpicss.git"
+  },
+  "homepage": "https://github.com/olivier3lanc/dpicss#readme",
+  "bugs": {
+    "url": "https://github.com/olivier3lanc/dpicss/issues"
   }
 }

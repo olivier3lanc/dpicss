@@ -177,14 +177,11 @@ main dl dd {
     border-left-color: var(--ita-colors-primary-500);
 }
 /* DETAILS */
-main > details summary::before,
-main > *:not(header) details summary::before {
+main > details summary::before {
     color: var(--ita-colors-primary-500);
 }
 main > details:has(+ details) summary,
-main > details + details summary,
-main > *:not(header) details:has(+ details) summary,
-main > *:not(header) details + details summary {
+main > details + details summary {
     border-bottom-color: var(--ita-colors-neutral-500);
 }
 
