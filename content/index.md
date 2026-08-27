@@ -10,7 +10,7 @@ permalink: index.html
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_nightlapse-roselend.avif"
+                <img src="/assets/img/tn_conflans-timelapse.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -19,7 +19,7 @@ permalink: index.html
             </picture>
         </summary>
         <picture>
-            <img src="/assets/img/nightlapse-roselend.avif"
+            <img src="/assets/img/conflans-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -50,6 +50,12 @@ CDN:
 
 ```plain
 https://cdn.jsdelivr.net/gh/olivier3lanc/dpicss/dist/dpicss.css
+```
+
+npm:
+
+```bash
+npm install dpicss
 ```
 
 Local:

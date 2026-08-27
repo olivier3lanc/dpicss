@@ -69,6 +69,7 @@
         position: relative;
         width: 100%;
         height: auto;
+        object-fit: cover;
         font-size: clamp(10px, calc(0.5 * var(--primary-size)), 24px);
         border-radius: calc(var(--border-radius) - 0.25 * var(--padding));
     }
@@ -96,7 +97,7 @@
         display: flex;
         position: relative;
         overflow: hidden;
-        transition: opacity var(--transition-duration);
+        /* transition: opacity var(--transition-duration); */
         background-color: color-mix(in srgb, var(--background-color) 90%, var(--foreground-color) 10%);
         border-radius: calc(var(--border-radius) - 0.25 * var(--padding));
     }

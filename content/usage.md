@@ -9,6 +9,8 @@ eleventyNavigation:
 ---
 DPICSS works with [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) and [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img). Since `alt` attribute is entered, details summary accessibility is fulfilled, but an optional `span` can be added as child of `summary` tag to display HTML content under the thumbnail.
 
+Here is the associated markup to use with DPICSS:
+
 ```html
 <details data-dpicss="<OPTIONAL_LIST_OF_KEYWORDS_PARAMETERS>">
     <summary title="<OPTIONAL_TOOLTIP_TEXT>">
@@ -34,6 +36,22 @@ DPICSS works with [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Re
     <!-- Optional below - Any content as "details" tag can display -->
 </details>
 ```
+*   `<OPTIONAL_LIST_OF_KEYWORDS_PARAMETERS>`<br>
+    The keyword based [parameters of DPICSS](/content/parameters.md)
+*   `<OPTIONAL_TOOLTIP_TEXT>`<br>
+    May be useful if no optional `span` is set into the `summary` tag, even if `<img alt="..."` attribute is there to describe your stuff. Also consider using `aria-label`.
+*   `<THUMBNAIL_IMAGE_URL>`<br>
+    The <abbr title="Uniform Resource Locator">URL</abbr> of the thumbnail.
+*   `<THUMBNAIL_ALTERNATE_TEXT>`<br>
+    The alternate text of the thumbnail. Enter a proper [alt attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#alt) that describes image and action of the thumbnail.
+*   `<NATURAL_WIDTH_OF_BOTH_IMAGES>`<br>
+    The natural width of both images. *It is highly recommended for the thumbnail to have the same width as the large sized image*, otherwise aspect ratio issues may occur.
+*   `<NATURAL_HEIGHT_OF_BOTH_IMAGES>`<br>
+    The natural height of both images. *It is highly recommended for the thumbnail to have the same height as the large sized image*, otherwise aspect ratio issues may occur.
+*   `<LARGE_SIZED_IMAGE_URL>`<br>
+    The <abbr title="Uniform Resource Locator">URL</abbr> of the large sized image.
+*   `<LARGE_SIZED_IMAGE_ALTERNATE_TEXT>`<br>
+    The alternate text of the large sized image. Enter a proper [alt attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img#alt) that describes the large sized image.
 
 ## Simple example
 
