@@ -2,10 +2,11 @@
 title: Customization
 description: DPICSS comes with some CSS variables that make it easy to fine tune
 layout: libdoc_page.liquid
-permalink: customization.html
+permalink: parameters/customization.html
 eleventyNavigation:
     key: Customization
     order: 30
+    parent: Parameters
 ---
 
 | CSS variable | Default value | Description |
@@ -82,7 +83,7 @@ details[data-dpicss] {
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -93,7 +94,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -104,7 +105,7 @@ details[data-dpicss] {
         style="--primary-color: #b06630">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -115,7 +116,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -139,7 +140,7 @@ details[data-dpicss] {
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -150,7 +151,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -161,7 +162,7 @@ details[data-dpicss] {
         style="--primary-size: 12px">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -172,7 +173,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -196,7 +197,7 @@ details[data-dpicss] {
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -207,7 +208,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -219,7 +220,7 @@ details[data-dpicss] {
         style="--text-align: right">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -230,7 +231,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -255,7 +256,7 @@ details[data-dpicss] {
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -266,7 +267,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -278,7 +279,7 @@ details[data-dpicss] {
         style="--padding: 3vw">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -289,7 +290,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -314,7 +315,7 @@ details[data-dpicss] {
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -325,7 +326,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -337,7 +338,7 @@ details[data-dpicss] {
         style="--border-radius: 10vw; --text-align: center">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -348,7 +349,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -372,7 +373,7 @@ details[data-dpicss] {
     <details data-dpicss="play pause">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -383,7 +384,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -395,7 +396,7 @@ details[data-dpicss] {
         style="--button-border-radius: 0.5em">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -406,7 +407,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -431,7 +432,7 @@ details[data-dpicss] {
     <details data-dpicss="box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -442,7 +443,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -454,7 +455,7 @@ details[data-dpicss] {
         style="--shadow-radius: 0.5em">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -465,7 +466,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -490,7 +491,7 @@ details[data-dpicss] {
     <details data-dpicss="box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -501,7 +502,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -513,7 +514,7 @@ details[data-dpicss] {
         style="--shadow-opacity: 0.2">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -524,7 +525,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -549,7 +550,7 @@ details[data-dpicss] {
     <details data-dpicss="box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -560,7 +561,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -572,7 +573,7 @@ details[data-dpicss] {
         style="--shadow-color: green">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -583,7 +584,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -609,7 +610,7 @@ details[data-dpicss] {
     <details data-dpicss="play pause">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -620,7 +621,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -634,7 +635,7 @@ details[data-dpicss] {
         --pause-text: '⏸';">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -645,7 +646,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -670,7 +671,7 @@ details[data-dpicss] {
     <details data-dpicss="play pause">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -681,7 +682,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -692,7 +693,7 @@ details[data-dpicss] {
         style="--transition-duration: 1s">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -703,7 +704,7 @@ details[data-dpicss] {
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"

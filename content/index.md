@@ -10,7 +10,7 @@ permalink: index.html
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_conflans-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/timelapse-conflans-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -19,7 +19,7 @@ permalink: index.html
             </picture>
         </summary>
         <picture>
-            <img src="/assets/img/conflans-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/timelapse-conflans.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -74,7 +74,7 @@ The following demo logs what happens during the multiple steps to the final disp
     <details data-dpicss="play pause box_shadow button_shadow">
         <summary onclick="display(`🕙 Loading large sized image`);this.onclick = null">
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -88,7 +88,7 @@ The following demo logs what happens during the multiple steps to the final disp
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"

@@ -29,7 +29,7 @@ Adding `play` on the `data-dpicss` attribute displays a "Play" button on thumbna
     <details data-dpicss="play">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -40,7 +40,7 @@ Adding `play` on the `data-dpicss` attribute displays a "Play" button on thumbna
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -61,7 +61,7 @@ Adding `play_hover` on the `data-dpicss` attribute displays a "Play" button on t
     <details data-dpicss="play_hover">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -72,7 +72,7 @@ Adding `play_hover` on the `data-dpicss` attribute displays a "Play" button on t
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -94,7 +94,7 @@ Adding `pause` on the `data-dpicss` attribute displays a "Pause" button on hover
     <details data-dpicss="pause">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -105,7 +105,7 @@ Adding `pause` on the `data-dpicss` attribute displays a "Pause" button on hover
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -127,7 +127,7 @@ Adding `box_shadow` on the `data-dpicss` attribute displays a box shadow of the 
     <details data-dpicss="box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -138,7 +138,7 @@ Adding `box_shadow` on the `data-dpicss` attribute displays a box shadow of the 
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -159,7 +159,7 @@ Adding `button_shadow` on the `data-dpicss` attribute displays a shadow around p
     <details data-dpicss="play pause button_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -170,7 +170,7 @@ Adding `button_shadow` on the `data-dpicss` attribute displays a shadow around p
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -191,7 +191,7 @@ Adding `invert` on the `data-dpicss` attribute swaps/inverts foreground and back
     <details data-dpicss="invert play pause button_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -202,7 +202,7 @@ Adding `invert` on the `data-dpicss` attribute swaps/inverts foreground and back
             </span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"

@@ -64,7 +64,7 @@ Here is a fully fonctionnal minimalistic example with a still <abbr title="AV1 I
     <details data-dpicss="">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -72,7 +72,7 @@ Here is a fully fonctionnal minimalistic example with a still <abbr title="AV1 I
             </picture>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -98,7 +98,7 @@ Example of a page with [Bootstrap](https://getbootstrap.com) and DPICSS.
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -107,7 +107,7 @@ Example of a page with [Bootstrap](https://getbootstrap.com) and DPICSS.
             <span>DPICSS with Bootstrap</span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -130,7 +130,7 @@ Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPICSS.
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -139,7 +139,7 @@ Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPICSS.
             <span>DPICSS with Tailwind</span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -158,20 +158,21 @@ Example of a page with [Eric A. Meyer Reset CSS](https://meyerweb.com/eric/tools
 <link href="/assets/meyerweb.reset.2.css" rel="stylesheet">
 <link href="/assets/demo.css" rel="stylesheet">
 <link href="/dist/dpicss.css" rel="stylesheet">
+
 <main>
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
                     loading="lazy">
             </picture>
-            <span>DPICSS with Reset CSS</span>
+            <span>DPICSS with Reset CSS into its own @layer</span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
@@ -194,7 +195,7 @@ Example of a page with [Normalize CSS](https://necolas.github.io/normalize.css/)
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="/assets/img/tn_albertville-timelapse.avif"
+                <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -203,7 +204,7 @@ Example of a page with [Normalize CSS](https://necolas.github.io/normalize.css/)
             <span>DPICSS with Normalize CSS</span>
         </summary>
         <picture>
-            <img src="/assets/img/albertville-timelapse.avif"
+            <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"
