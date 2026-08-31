@@ -99,3 +99,6 @@ main {
     min-height: 100vh;
     padding: 64px;
 }
+main.alt1 {
+    justify-content: start;
+}

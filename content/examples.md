@@ -8,6 +8,50 @@ eleventyNavigation:
     order: 50
     parent: Usage
 ---
+## AVIF Rocks
+
+[AV1 image format](https://fr.wikipedia.org/wiki/AVIF) works perfectly with DPICSS.
+
+{% sandbox 'AVIF Rocks' %}
+<link rel="stylesheet" href="/dist/dpicss.css">
+<link rel="stylesheet" href="/assets/demo.css">
+<main class="alt1">
+    <details data-dpicss="play pause box_shadow button_shadow"
+        style="
+        --play-text: 'What a lovely day!';
+        --pause-text: 'Stop';
+        --primary-color: #873003;
+        --padding: 2px;
+        --border-radius: 6px;
+        --text-align: center;
+        --shadow-color: var(--primary-color)">
+        <summary>
+            <picture>
+                <img src="https://assets.olivewhite.com/dpicss/what-a-lovely-day-thumbnail.avif"
+                    alt="The thumbnail"
+                    width="2592"
+                    height="1080"
+                    loading="lazy">
+            </picture>
+        </summary>
+        <picture>
+            <img src="https://assets.olivewhite.com/dpicss/what-a-lovely-day.avif"
+                alt="Large sized image"
+                width="2592"
+                height="1080"
+                loading="lazy">
+        </picture>
+        <p>
+            <a  href="https://www.warnerbros.com/movies/mad-max-fury-road"
+                target="_blank"
+                style="color: var(--primary-color-contrast)">
+                &copy; Warner Bros - Mad Max Fury Road
+            </a>
+        </p>
+    </details>
+</main>
+{% endsandbox %}
+
 ## Unmask an image
 
 DPICSS can be used as an <abbr title="User Interface">UI</abbr> to unmask an image.

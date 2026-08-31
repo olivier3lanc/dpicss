@@ -10,7 +10,7 @@ permalink: index.html
     <details data-dpicss="play pause box_shadow">
         <summary>
             <picture>
-                <img src="https://assets.olivewhite.com/dpicss/timelapse-conflans-thumbnail.avif"
+                <img src="https://assets.olivewhite.com/dpicss/conflans-timelapse-thumbnail.avif"
                     alt="The thumbnail"
                     width="1280"
                     height="720"
@@ -19,7 +19,7 @@ permalink: index.html
             </picture>
         </summary>
         <picture>
-            <img src="https://assets.olivewhite.com/dpicss/timelapse-conflans.avif"
+            <img src="https://assets.olivewhite.com/dpicss/conflans-timelapse.avif"
                 alt="Large sized animated image"
                 width="1280"
                 height="720"

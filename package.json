@@ -5,10 +5,7 @@
   "style": "dist/dpicss.css",
   "main": "dist/dpicss.css",
   "files": ["dist"],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["css", "css-library", "images"],
+  "keywords": ["css", "css-library", "images", "animated-images"],
   "author": "Olivier 3lanc",
   "license": "MIT",
   "type": "module",
