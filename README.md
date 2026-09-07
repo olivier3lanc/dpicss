@@ -4,7 +4,7 @@ Details Player for Image with CSS. A tiny CSS library to display animated or hig
 
 **The main idea behind DPICSS is to beautifully display large-sized images or animated images only on user demand without bloating and reducing page performances.**
 
-https://github.com/user-attachments/assets/f2f01ab8-38c4-4231-97b5-0591d3b1d582
+https://github.com/user-attachments/assets/53be0c7b-d456-4abe-8c56-58de562e80b6
 
 DPICSS achieves this combining modern native HTML5 and CSS features:
 
