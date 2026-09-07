@@ -5,7 +5,7 @@
   "style": "dist/dpicss.css",
   "main": "dist/dpicss.css",
   "files": ["dist"],
-  "keywords": ["css", "css-library", "images", "animated-images"],
+  "keywords": ["css", "css-library", "images", "animated-images", "details", "HTML5"],
   "author": "Olivier 3lanc",
   "license": "MIT",
   "type": "module",

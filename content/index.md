@@ -70,6 +70,8 @@ npm install dpicss
 Local:
 
 ```bash
+git clone git@github.com:olivier3lanc/dpicss.git
+cd dpicss
 npm install
 npx @11ty/eleventy --serve
 ```
