@@ -138,9 +138,9 @@ main > *:not(pre) code {
     color: var(--ita-colors-primary-800);
 }
 main > pre {
-    background-color: var(--ita-colors-primary-200);
-    border-color: var(--ita-colors-primary-300);
-    box-shadow: inset 0.3em 0.3em 2em #0B427C44;
+    background-color: color-mix(in srgb, var(--ita-colors-primary-100) 70%, transparent 30%);
+    border-color: var(--ita-colors-primary-200);
+    /* box-shadow: inset 0.3em 0.3em 2em #0B427C44; */
 }
 main > pre > code::before {
     border-bottom-color: #385267;

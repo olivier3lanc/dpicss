@@ -1,0 +1,157 @@
+[
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/severance-dolly-zoom-1.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/severance-dolly-zoom-1-thumbnail.avif",
+        "width": "1280",
+        "height": "536",
+        "description": "Dolly zoom effect &copy; Severance serie",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #7598a6"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/severance-dolly-zoom-2.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/severance-dolly-zoom-2-thumbnail.avif",
+        "width": "1280",
+        "height": "536",
+        "description": "Dolly zoom effect &copy; Severance serie",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #13170c"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/severance-elevator.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/severance-elevator-thumbnail.avif",
+        "width": "1280",
+        "height": "536",
+        "description": "Elevator &copy; Severance serie",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #7598a6"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/fury-road.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/fury-road-thumbnail.avif",
+        "width": "2592",
+        "height": "1080",
+        "description": "Fury Road &copy; Warner Bros",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #8b480b; --shadow-color: #8b480b;"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/mm2-blower.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/mm2-blower-thumbnail.avif",
+        "width": "2626",
+        "height": "1094",
+        "description": "&copy; Mad Max 2 movie",
+        "parameters": "play_hover box_shadow invert"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/mmfrteaser-blower.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/mmfrteaser-blower-thumbnail.avif",
+        "width": "2592",
+        "height": "1080",
+        "description": "Mad Max Fury Road blower that run once &copy; Warner Bros",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #955635"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/mmfrteaser-opening.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/mmfrteaser-opening-thumbnail.avif",
+        "width": "2592",
+        "height": "1080",
+        "description": "Mad Max Fury Road opening scene &copy; Warner Bros",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #352d1d"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/what-a-lovely-day.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/what-a-lovely-day-thumbnail.avif",
+        "width": "2592",
+        "height": "1080",
+        "description": "Nux from Mad Max Fury Road movie &copy; Warner Bros",
+        "parameters": "play box_shadow",
+        "style": "--play-text: 'What a lovely day!'; --primary-color: #3f1500"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/kit-jumping-into-logo.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/kit-head-pop-up.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "&copy; <small><a href=\"https://brand.mozilla.com/d/5UkPdpbtt8LS/motion-library\" target=\"_blank\" style=\"color: var(--contrast-color)\">Kit jumping into logo by Mozilla</a></small>",
+        "parameters": "play pause box_shadow button_shadow",
+        "style": "--primary-color: #6c25f5; --shadow-color: #6c25f5;"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/albertville-timelapse.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "A summer timelapse in Albertville, Savoie, France",
+        "parameters": "play_hover box_shadow"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/conflans-timelapse.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/conflans-timelapse-thumbnail.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "Storm is coming at Conflans, Savoie, France",
+        "parameters": "play_hover box_shadow"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/crazy-rabbit.gif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/crazy-rabbit-thumbnail.webp",
+        "width": "640",
+        "height": "360",
+        "description": "&copy; Pets movie",
+        "parameters": "play_hover box_shadow"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/kitfly_a.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/kitfly_a-thumbnail.avif",
+        "width": "860",
+        "height": "568",
+        "description": "Kit Fly &copy; Mozilla Firefox",
+        "parameters": "play_hover box_shadow",
+        "style": "--play-text: 'Fly!'; --primary-color: #6c25f5"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/le-plan-de-la-laie.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/le-plan-de-la-laie-thumbnail.avif",
+        "width": "2560",
+        "height": "1706",
+        "description": "Le plan de la Laie, Roselend, Savoie, France",
+        "parameters": "play_hover pause box_shadow",
+        "style": "--play-text: 'Show'; --pause-text: 'Hide'"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/muppet.webp",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/muppet-thumbnail.webp",
+        "width": "480",
+        "height": "360",
+        "description": "Blue muppet WEBP",
+        "parameters": "play_hover box_shadow",
+        "style": "--primary-color: #245a9a"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/timelapse-roselend.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/timelapse-roselend-thumbnail.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "Timelapse by night at Roselend, Savoie, France",
+        "parameters": "play_hover box_shadow"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/poppy-cinemagraph.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/poppy-cinemagraph-thumbnail.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "Poppy cinemagraph",
+        "parameters": "play_hover box_shadow"
+    },
+    {
+        "imageUrl": "https://assets.olivewhite.com/dpicss/timelapse-tamie.avif",
+        "thumbnailUrl": "https://assets.olivewhite.com/dpicss/timelapse-tamie-thumbnail.avif",
+        "width": "1280",
+        "height": "720",
+        "description": "Timelapse from col de Tamié, Savoie, France",
+        "parameters": "play_hover box_shadow"
+    }
+]

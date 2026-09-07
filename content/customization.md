@@ -90,7 +90,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Custom global primary color
+                Custom global primary color. Text color is automatically contrasted for proper accessibility.
             </span>
         </summary>
         <picture>
@@ -102,7 +102,7 @@ details[data-dpicss] {
         </picture>
     </details>
     <details data-dpicss=""
-        style="--primary-color: #b06630">
+        style="--primary-color: #e9dfc5">
         <summary>
             <picture>
                 <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse-thumbnail.avif"
@@ -112,7 +112,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                CSS variable override on element
+                CSS variable override on element. Text color is automatically contrasted for proper accessibility. 
             </span>
         </summary>
         <picture>

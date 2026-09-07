@@ -7,6 +7,46 @@ eleventyNavigation:
     key: Usage
     order: 10
 ---
+<link rel="stylesheet" href="/dist/dpicss.css">
+<div class="pos-relative z-1 mb-7">
+    <details data-dpicss="play pause box_shadow button_shadow"
+        style="
+            --primary-color: #6c25f5;
+            --shadow-color: #6c25f5">
+        <summary>
+            <picture>
+                <img src="https://assets.olivewhite.com/dpicss/kit-head-pop-up.avif"
+                    alt="The thumbnail"
+                    width="1280"
+                    height="720"
+                    loading="lazy"
+                    eleventy:ignore>
+            </picture>
+            <span>
+                Play with Kit
+            </span>
+        </summary>
+        <picture>
+            <img src="https://assets.olivewhite.com/dpicss/kit-jumping-into-logo.avif"
+                alt="Large sized image"
+                width="1280"
+                height="720"
+                loading="lazy"
+                eleventy:ignore>
+        </picture>
+        <p>
+            &copy;
+            <small>
+                <a  href="https://brand.mozilla.com/d/5UkPdpbtt8LS/motion-library"
+                    target="_blank"
+                    style="color: var(--contrast-color)">
+                    Kit jumping into logo by Mozilla
+                </a>
+            </small>
+        </p>
+    </details>
+</div>
+
 DPICSS works with [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) and [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img). Since `alt` attribute is entered, details summary accessibility is fulfilled, but an optional `span` can be added as child of `summary` tag to display HTML content under the thumbnail.
 
 Here is the associated markup to use with DPICSS:
@@ -36,6 +76,7 @@ Here is the associated markup to use with DPICSS:
     <!-- Optional below - Any content as "details" tag can display -->
 </details>
 ```
+
 *   `<OPTIONAL_LIST_OF_KEYWORDS_PARAMETERS>`<br>
     The keyword based [parameters of DPICSS](/content/parameters.md)
 *   `<OPTIONAL_TOOLTIP_TEXT>`<br>
