@@ -8,9 +8,11 @@ eleventyNavigation:
     order: 70
 ---
 * Timelapses and photos by [Olive White Photographies](https://www.olivewhite.com)
+* Examples encoded with [ffmpeg](https://ffmpeg.org/)
 * [Mad Max: Fury Road - Official Main Trailer](https://www.youtube.com/watch?v=hEJnMQG9ev8) by Warner Bros Entertainment
 * [Mad Max: The Road Warrior | 4K Trailer](https://www.youtube.com/watch?v=bwcADuJZDNA) by Warner Bros Entertainment
 * [Severance official page](https://www.apple.com/tv-pr/originals/severance/) by Apple TV
 * [Kit Firefox Mascot](https://brand.mozilla.com/d/5UkPdpbtt8LS/visual-elements#/-/mascot) by Mozilla
 * [Pets movie](https://www.illumination.com/movie/the-secret-life-of-pets/) by Illumination
 * [Blue Muppet](https://giphy.com/clips/sesamestreet-sesame-street-cookie-monster-fkQEzWC6Ru3dq1UoaA) from Giphy
+* [AOMedia Video 1](https://en.wikipedia.org/wiki/AV1) encoder

@@ -1,6 +1,6 @@
 ---
 title: Parameters
-description: Just add some keywords on DPICSS attribute to fine-tune your experience
+description: Just add some keywords on DPiCSS attribute to fine-tune your experience
 layout: libdoc_page.liquid
 permalink: parameters.html
 eleventyNavigation:

@@ -1,6 +1,6 @@
 ---
 title: Usage
-description: How to use DPICSS with some examples
+description: How to use DPiCSS with some examples
 layout: libdoc_page.liquid
 permalink: usage.html
 eleventyNavigation:
@@ -47,9 +47,9 @@ eleventyNavigation:
     </details>
 </div>
 
-DPICSS works with [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) and [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img). Since `alt` attribute is entered, details summary accessibility is fulfilled, but an optional `span` can be added as child of `summary` tag to display HTML content under the thumbnail.
+DPiCSS works with [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) and [image](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img). Since `alt` attribute is entered, details summary accessibility is fulfilled, but an optional `span` can be added as child of `summary` tag to display HTML content under the thumbnail.
 
-Here is the associated markup to use with DPICSS:
+Here is the associated markup to use with DPiCSS:
 
 ```html
 <details data-dpicss="<OPTIONAL_LIST_OF_KEYWORDS_PARAMETERS>">
@@ -78,7 +78,7 @@ Here is the associated markup to use with DPICSS:
 ```
 
 *   `<OPTIONAL_LIST_OF_KEYWORDS_PARAMETERS>`<br>
-    The keyword based [parameters of DPICSS](/content/parameters.md)
+    The keyword based [parameters of DPiCSS](/content/parameters.md)
 *   `<OPTIONAL_TOOLTIP_TEXT>`<br>
     May be useful if no optional `span` is set into the `summary` tag, even if `<img alt="..."` attribute is there to describe your stuff. Also consider using `aria-label`.
 *   `<THUMBNAIL_IMAGE_URL>`<br>
@@ -125,11 +125,11 @@ Here is a fully fonctionnal minimalistic example with a still <abbr title="AV1 I
 
 ## Interoperability
 
-Since DPICSS uses CSS and HTML5 tags, it may interfere with others librairies or frameworks. The following sandboxes includes most common CSS libraries to check DPICSS renders properly across every framework or library. Feel free to [suggest other libraries](https://github.com/olivier3lanc/dpicss/issues) or [report issues](https://github.com/olivier3lanc/dpicss/issues).
+Since DPiCSS uses CSS and HTML5 tags, it may interfere with others librairies or frameworks. The following sandboxes includes most common CSS libraries to check DPiCSS renders properly across every framework or library. Feel free to [suggest other libraries](https://github.com/olivier3lanc/dpicss/issues) or [report issues](https://github.com/olivier3lanc/dpicss/issues).
 
 ### With Bootstrap
 
-Example of a page with [Bootstrap](https://getbootstrap.com) and DPICSS.
+Example of a page with [Bootstrap](https://getbootstrap.com) and DPiCSS.
 
 {% sandbox 'With Bootstrap' %}
 <link href="/assets/bootstrap.5.3.8.min.css"" rel="stylesheet">
@@ -145,7 +145,7 @@ Example of a page with [Bootstrap](https://getbootstrap.com) and DPICSS.
                     height="720"
                     loading="lazy">
             </picture>
-            <span>DPICSS with Bootstrap</span>
+            <span>DPiCSS with Bootstrap</span>
         </summary>
         <picture>
             <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
@@ -161,7 +161,7 @@ Example of a page with [Bootstrap](https://getbootstrap.com) and DPICSS.
 
 ### With Tailwind
 
-Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPICSS.
+Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPiCSS.
 
 {% sandbox 'With Tailwind' %}
 <link href="/assets/tailwind.4.3.0.min.css"" rel="stylesheet">
@@ -177,7 +177,7 @@ Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPICSS.
                     height="720"
                     loading="lazy">
             </picture>
-            <span>DPICSS with Tailwind</span>
+            <span>DPiCSS with Tailwind</span>
         </summary>
         <picture>
             <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
@@ -193,7 +193,7 @@ Example of a page with [Tailwind CSS](https://tailwindcss.com/) and DPICSS.
 
 ### With Reset CSS
 
-Example of a page with [Eric A. Meyer Reset CSS](https://meyerweb.com/eric/tools/css/reset/) and DPICSS.
+Example of a page with [Eric A. Meyer Reset CSS](https://meyerweb.com/eric/tools/css/reset/) and DPiCSS.
 
 {% sandbox 'Eric A. Meyer Reset CSS' %}
 <link href="/assets/meyerweb.reset.2.css" rel="stylesheet">
@@ -210,7 +210,7 @@ Example of a page with [Eric A. Meyer Reset CSS](https://meyerweb.com/eric/tools
                     height="720"
                     loading="lazy">
             </picture>
-            <span>DPICSS with Reset CSS into its own @layer</span>
+            <span>DPiCSS with Reset CSS into its own @layer</span>
         </summary>
         <picture>
             <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"
@@ -226,7 +226,7 @@ Example of a page with [Eric A. Meyer Reset CSS](https://meyerweb.com/eric/tools
 
 ### Normalize CSS
 
-Example of a page with [Normalize CSS](https://necolas.github.io/normalize.css/) and DPICSS.
+Example of a page with [Normalize CSS](https://necolas.github.io/normalize.css/) and DPiCSS.
 
 {% sandbox 'Normalize CSS' %}
 <link href="/assets/normalize.8.0.1.css" rel="stylesheet">
@@ -242,7 +242,7 @@ Example of a page with [Normalize CSS](https://necolas.github.io/normalize.css/)
                     height="720"
                     loading="lazy">
             </picture>
-            <span>DPICSS with Normalize CSS</span>
+            <span>DPiCSS with Normalize CSS</span>
         </summary>
         <picture>
             <img src="https://assets.olivewhite.com/dpicss/albertville-timelapse.avif"

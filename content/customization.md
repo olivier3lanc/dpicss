@@ -1,6 +1,6 @@
 ---
 title: Customization
-description: DPICSS comes with some CSS variables that make it easy to fine tune
+description: DPiCSS comes with some CSS variables that make it easy to fine tune
 layout: libdoc_page.liquid
 permalink: parameters/customization.html
 eleventyNavigation:
@@ -12,7 +12,7 @@ eleventyNavigation:
 | CSS variable | Default value | Description |
 |--|--|--|
 | `--primary-color`| `white` | Primary color from which every other color is set |
-| `--primary-size`| `clamp(12px, 3cqi, 16px)` | The primary size defines text size. By default in DPICSS, primary size is used to set font size and paddings|
+| `--primary-size`| `clamp(12px, 3cqi, 16px)` | The primary size defines text size. By default in DPiCSS, primary size is used to set font size and paddings|
 | `--font-family`| `inherit` | Defines the font family |
 | `--text-align`| `left` | Defines the default text alignment for the summary text |
 | `--padding`| `calc(0.5 * var(--primary-size))` | Defines the padding of the box and the images. By default, calculated from primary size |
@@ -27,14 +27,14 @@ eleventyNavigation:
 
 ## Global
 
-To customize every instance of DPICSS, just replace one or more CSS variables replacing the defaults.
+To customize every instance of DPiCSS, just replace one or more CSS variables replacing the defaults.
 
 ```css
 @layer dpicss {
     details[data-dpicss] {
         /* Primary color from which every other color is set */
         --primary-color:        white;
-        /* The primary size defines text size. By default in DPICSS, primary size is used to set font size and paddings.  */
+        /* The primary size defines text size. By default in DPiCSS, primary size is used to set font size and paddings.  */
         --primary-size:         clamp(12px, 3cqi, 16px);
         /* Defines the font family */
         --font-family:          inherit;
@@ -169,7 +169,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                CSS variable 12px on DPICSS details element
+                CSS variable 12px on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -227,7 +227,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Text align right on DPICSS details element
+                Text align right on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -286,7 +286,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Padding 3vw on DPICSS details element
+                Padding 3vw on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -345,7 +345,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Border radius 10vw on DPICSS details element
+                Border radius 10vw on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -403,7 +403,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Button border radius 0.5em on DPICSS details element
+                Button border radius 0.5em on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -462,7 +462,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Shadow radius 0.5em on DPICSS details element
+                Shadow radius 0.5em on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -521,7 +521,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Shadow opacity 0.2 on DPICSS details element
+                Shadow opacity 0.2 on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -580,7 +580,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Shadow color green on DPICSS details element
+                Shadow color green on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -642,7 +642,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Custom button texts on DPICSS details element
+                Custom button texts on DPiCSS details element
             </span>
         </summary>
         <picture>
@@ -700,7 +700,7 @@ details[data-dpicss] {
                     loading="lazy">
             </picture>
             <span>
-                Custom transition duration 1s on DPICSS details element
+                Custom transition duration 1s on DPiCSS details element
             </span>
         </summary>
         <picture>

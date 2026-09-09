@@ -1,6 +1,6 @@
 ---
 title: Experiments
-description: Gallery of few advanced examples achieved with DPICSS with a bit of JavaScript
+description: Gallery of few advanced examples achieved with DPiCSS with a bit of JavaScript
 layout: libdoc_page.liquid
 permalink: usage/experiments.html
 eleventyNavigation:
@@ -12,9 +12,9 @@ eleventyNavigation:
 
 ## AVIF is the new GIF
 
-DPICSS is an interesting option when you have small pieces of videos an you don't need audio. Using <abbr title="AV1 Image File Format">AVIF</abbr> image format is a relevant option to get high quality short animated sequences with fewer kilobytes. With this modern format, it becomes possible to display high definition media without losing page performance, bandwidth and user patience. This page uses some examples of still and animated AVIF files in combination with DPICSS.
+DPiCSS is an interesting option when you have small pieces of videos an you don't need audio. Using <abbr title="AV1 Image File Format">AVIF</abbr> image format is a relevant option to get high quality short animated sequences with fewer kilobytes. With this modern format, it becomes possible to display high definition media without losing page performance, bandwidth and user patience. This page uses some examples of still and animated AVIF files in combination with DPiCSS.
 
-The following example uses DPICSS integrated into [Eleventy LibDoc](https://eleventy-libdoc.netlify.app):
+The following example uses DPiCSS integrated into [Eleventy LibDoc](https://eleventy-libdoc.netlify.app):
 
 <div class="pos-relative z-1 mt-7"
     style="padding: 0">
@@ -129,12 +129,12 @@ The following example uses an AVIF encoded with `-loop 1` that play only once. A
         transform: translateX(-50%) translateY(-50%);
         width: 100%;
         /* END DEMO */
-        /* START DPICSS */
+        /* START DPiCSS */
         --play-text: 'Ignite';
         --padding: 0px;
         --border-radius: 0px;
         --primary-color: #c17744;
-        /* END DPICSS */
+        /* END DPiCSS */
     }
     #foo img {
         height: 100vh;

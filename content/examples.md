@@ -1,6 +1,6 @@
 ---
 title: Examples
-description: Gallery of examples with combination of DPICSS parameters and images formats
+description: Gallery of examples with combination of DPiCSS parameters and images formats
 layout: libdoc_page.liquid
 permalink: usage/examples.html
 eleventyNavigation:
@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 ## Display an animated AVIF
 
-[AV1 image format](https://fr.wikipedia.org/wiki/AVIF) works perfectly with DPICSS.
+[AV1 image format](https://fr.wikipedia.org/wiki/AVIF) works perfectly with DPiCSS.
 
 {% sandbox 'Display an animated AVIF' %}
 <link rel="stylesheet" href="/dist/dpicss.css">
@@ -48,7 +48,7 @@ eleventyNavigation:
 
 ## Add content to details
 
-DPICSS uses `details` tag as primary holder, you can off course add any content after or before the `picture` tag as follows. Into this example, the animated AVIF image file is encoded with `-loop 1`, this means that it keep the last frame as still image once played.
+DPiCSS uses `details` tag as primary holder, you can off course add any content after or before the `picture` tag as follows. Into this example, the animated AVIF image file is encoded with `-loop 1`, this means that it keep the last frame as still image once played.
 
 {% sandbox 'Add content to details' %}
 <link rel="stylesheet" href="/dist/dpicss.css">
@@ -90,7 +90,7 @@ DPICSS uses `details` tag as primary holder, you can off course add any content 
 
 ## Responsiveness
 
-DPICSS is just a CSS library based on HTML5, `picture` tag manages perfectly the responsiveness just like the following example: 
+DPiCSS is just a CSS library based on HTML5, `picture` tag manages perfectly the responsiveness just like the following example: 
 
 {% sandbox 'Responsiveness' %}
 <link rel="stylesheet" href="/dist/dpicss.css">
@@ -124,7 +124,7 @@ DPICSS is just a CSS library based on HTML5, `picture` tag manages perfectly the
 
 ## Reveal an image
 
-DPICSS can be used as an <abbr title="User Interface">UI</abbr> to unmask an image.
+DPiCSS can be used as an <abbr title="User Interface">UI</abbr> to unmask an image.
 
 {% sandbox 'Reveal an image' %}
 <link rel="stylesheet" href="/dist/dpicss.css">
@@ -157,7 +157,7 @@ DPICSS can be used as an <abbr title="User Interface">UI</abbr> to unmask an ima
 
 ## Display a GIF
 
-Use DPICSS to simply display a GIF on click on a thumbnail.
+Use DPiCSS to simply display a GIF on click on a thumbnail.
 
 {% sandbox 'Display a GIF' %}
 <link rel="stylesheet" href="/dist/dpicss.css">
@@ -187,7 +187,7 @@ Use DPICSS to simply display a GIF on click on a thumbnail.
 
 ## Display a WEBP
 
-Use DPICSS to simply display an animated WEBP on click on a thumbnail.
+Use DPiCSS to simply display an animated WEBP on click on a thumbnail.
 
 {% sandbox 'Display a WEBP' %}
 <link rel="stylesheet" href="/dist/dpicss.css">

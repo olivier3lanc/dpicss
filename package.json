@@ -1,6 +1,6 @@
 {
   "name": "dpicss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Details Player for Image with CSS. A tiny CSS library to display animated or higher definition images on click.",
   "style": "dist/dpicss.css",
   "main": "dist/dpicss.css",

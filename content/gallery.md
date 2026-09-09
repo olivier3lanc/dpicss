@@ -1,6 +1,6 @@
 ---
 title: Gallery
-description: A list of DPICSS examples
+description: A list of DPiCSS examples
 layout: libdoc_page.liquid
 permalink: usage/gallery.html
 eleventyNavigation:
@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 <link rel="stylesheet" href="/dist/dpicss.css">
 
-The following example uses DPICSS integrated into [Eleventy LibDoc](https://eleventy-libdoc.netlify.app) to create a simple gallery of animated images. 
+The following example uses DPiCSS integrated into [Eleventy LibDoc](https://eleventy-libdoc.netlify.app) to create a simple gallery of animated images. 
 
 <div class="ctn pos-relative z-1">
     <style>

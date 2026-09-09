@@ -1,11 +1,11 @@
-/* DPICSS v0.1.0 */
+/* DPiCSS v0.1.0 */
 @layer dpicss {
     details[data-dpicss] {
 
         /* START SETTINGS */
         /* Primary color from which every other color is set */
         --primary-color:        white;
-        /* The primary size defines text size. By default in DPICSS, primary size is used to set font size and paddings.  */
+        /* The primary size defines text size. By default in DPiCSS, primary size is used to set font size and paddings.  */
         --primary-size:         clamp(12px, 3cqi, 16px);
         /* Defines the font family */
         --font-family:          inherit;
@@ -158,16 +158,6 @@
             transform: translateX(-50%) translateY(-50%) rotate(360deg) ;
         }
     }
-    @keyframes clickedPlay {
-        0% {
-            outline-offset: 2px;
-            outline-color: var(--background-color);
-        }
-        100% {
-            outline-offset: 1em;
-            outline-color: transparent;
-        }
-    }
     /* LOADER */
     details[data-dpicss] summary picture::before,
     details[data-dpicss] > picture::before {
@@ -195,11 +185,6 @@
     /* Play button clicked / Summary opened */
     /* ISSUE: Works only once on Chrome */
     details[data-dpicss][open] > picture::after {
-        /* animation-name: clickedPlay;
-        animation-duration: var(--transition-duration);
-        animation-timing-function: linear;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards; */
         outline: none;
     }
 
